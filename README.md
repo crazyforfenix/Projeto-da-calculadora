@@ -1,8 +1,6 @@
 - 👋 Hi, I’m @crazyforfenix
 - 👀 I’m interested in games , music and programming
 - 🌱 I’m currently learning programming
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
 
 <!---
 crazyforfenix/crazyforfenix is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

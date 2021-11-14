@@ -1,0 +1,63 @@
+#include <stdio.h>
+
+double tipo_de_conta;
+float num1;
+float num2;
+double resultado;
+
+int main() {
+  //input
+  printf("PROJETO FEITO POR ALEXANDRE BASTOS E PEDRO SHIRLEY\n");
+  printf("tipo de conta (1-para soma, 2-para subtração, 3-para multiplicação, 4-divisão)\n");
+  scanf("%lf", & tipo_de_conta);
+
+
+  if (tipo_de_conta == 1)
+  {
+    printf("num1\n");
+  scanf("%f", & num1);
+    printf("num2\n");
+  scanf("%f", & num2);
+  //algoritmo 
+  resultado=(num1+num2);
+  }
+
+
+  if (tipo_de_conta == 2) 
+  {
+    printf("num1\n");
+  scanf("%f", & num1);
+    printf("num2\n");
+  scanf("%f", & num2);
+  //algoritmo 
+  resultado=(num1-num2);
+  }
+
+
+  if (tipo_de_conta == 3)
+  {
+    printf("num1\n");
+  scanf("%f", & num1);
+    printf("num2\n");
+  scanf("%f", & num2);
+  //algoritmo 
+  resultado=(num1*num2);
+  }
+
+
+  if (tipo_de_conta == 4)
+  {
+    printf("num1\n");
+  scanf("%f", & num1);
+    printf("num2\n");
+  scanf("%f", & num2);
+  //algoritmo 
+  resultado=(num1/num2);
+  }
+
+
+  //output
+      printf("O resultado é : %.1f",resultado);
+  
+  return 0;
+}
